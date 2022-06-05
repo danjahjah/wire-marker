@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="14.4394mm" height="3.3414mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 14 3"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:0;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polyline class="fil0 str0" points="14,0 13,0 13,2 14,2 14,3 13,3 "/>
+  <line class="fil0 str0" x1="12" y1="0" x2="12" y2= "3" />
+  <polyline class="fil0 str0" points="11,0 11,2 12,2 "/>
+  <polyline class="fil0 str0" points="8,0 10,0 8,2 10,2 9,2 8,3 "/>
+  <polyline class="fil0 str0" points="6,2 8,0 8,3 "/>
+  <line class="fil0 str0" x1="5" y1="2" x2="5" y2= "2" />
+  <polyline class="fil0 str0" points="2,0 4,0 4,2 2,3 4,3 "/>
+  <line class="fil0 str0" x1="0" y1="3" x2="2" y2= "0" />
+  <line class="fil0 str0" x1="2" y1="3" x2="0" y2= "0" />
+ </g>
+</svg>

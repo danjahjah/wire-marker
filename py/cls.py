@@ -109,7 +109,7 @@ class Glyph(object):
 		if not l:
 			return
 
-		glines=["M5"]
+		glines=["M5 S1000"]
 		# начинаем в абсолютных координатах
 		if bySymbol==True:
 			glines.append(f"G90 X{l[0][0]} Y{l[0][1]}")
@@ -117,7 +117,7 @@ class Glyph(object):
 			glines.append(f"G90 X{c[0][0]} Y{c[0][1]}")
 
 		glines.append("M3")
-		glines.append("G91 F100")
+		glines.append("G91 F200")
 
 		# символ в относительных
 		for prev, lc in zip(l,l[1:]):
@@ -176,6 +176,7 @@ class Word(object):
 				glines.extend(g_string)
 			# for l in  g.coords:
 			# 	img1.line(l,  width = 0)
+		glines.append("M5\n")
 		glines.append(f";=== End of text <{self.text}> ===\n")
 		# print(f";End\n")
 		return glines
@@ -223,7 +224,7 @@ s = t.get_gcode()
 
 print('\n'.join(s))
 
-with open('readme.nc', 'w') as f:
+with open('readme2.nc', 'w') as f:
     f.write('\n'.join(s))
 
 
